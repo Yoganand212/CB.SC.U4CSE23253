@@ -76,7 +76,4 @@ var server = http.createServer(function(req, res) {
   }
 });
 
-server.listen(3000, function() {
-  console.log("Vehicle Scheduler API is running on http://localhost:3000");
-  console.log("Use Postman to GET http://localhost:3000/schedule");
-});
+server.listen(3000);

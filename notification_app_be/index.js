@@ -73,7 +73,4 @@ var server = http.createServer(function(req, res) {
   }
 });
 
-server.listen(3001, function() {
-  console.log("Notification App API is running on http://localhost:3001");
-  console.log("Use Postman to GET http://localhost:3001/notifications");
-});
+server.listen(3001);
